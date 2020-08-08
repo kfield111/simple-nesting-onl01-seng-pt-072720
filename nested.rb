@@ -17,8 +17,8 @@ def hopper
         }
      }
 new_hash = {
-	:key_1 => programmer_hash[:grace_hopper][:known_for],
-	:key_2 => programmer_hash[:grace_hopper][:languages]
+	:known_for => programmer_hash[:grace_hopper][:known_for],
+	:languages => programmer_hash[:grace_hopper][:languages]
 }
 
 	new_hash
