@@ -20,6 +20,8 @@ new_hash = {}
 	new_hash << programmer_hash[:grace_hopper][:known_for]
 	new_hash << programmer_hash[:grace_hopper][:languages]
 
+	new_hash
+
 end
 
 def alan_kay_is_known_for
