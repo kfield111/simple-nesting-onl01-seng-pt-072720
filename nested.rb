@@ -16,9 +16,10 @@ def hopper
           :languages => ["C"]
         }
      }
-new_hash = {}
-	new_hash << programmer_hash[:grace_hopper][:known_for]
-	new_hash << programmer_hash[:grace_hopper][:languages]
+new_hash = {
+	:key_1 => programmer_hash[:grace_hopper][:known_for],
+	:key_2 => programmer_hash[:grace_hopper][:languages]
+}
 
 	new_hash
 
